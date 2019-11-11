@@ -1,21 +1,29 @@
 #include "stdio.h"
 #include "string.h"
+
+int i = 0xFF22;
+char j ;
+int main()
+{
+	j = i;
+	printf("%#X\n",j);	
+} 
 ////***************************************************
 ////功能：负数转化为十六进制（利用有符号位和无符号位的关系） 
 ////
 ////*****************************************************
-unsigned char i =0xB6;
-signed char j; 
-int k;
-
-int main(void)
-{
-	j=i;
-	k=i;
-	printf("%d\n",j);
-	printf("%d\n",k);
-	printf("%d\n",k+j);
-}
+//unsigned char i =0xB6;
+//signed char j; 
+//int k;
+//
+//int main(void)
+//{
+//	j=i;
+//	k=i;
+//	printf("%d\n",j);
+//	printf("%d\n",k);
+//	printf("%d\n",k+j);
+//}
 ////***************************************************
 ////功能： 
 ////
