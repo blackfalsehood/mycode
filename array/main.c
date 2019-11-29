@@ -41,8 +41,8 @@ void Point_Handle(int temp[][2],int size,int j,int k)
 	{
 		temp[size-i-1][0] = abs(temp[size-i-1][0] + j);
 		temp[size-i-1][1] = abs(temp[size-i-1][1] + k);
-	//	printf("%02X %02X ",temp[i][0],temp[i][1]); 
-		printf("%d %d ",temp[size-i-1][0],temp[size-i-1][1]); 
+		printf("%02X %02X ",temp[size-i-1][0],temp[size-i-1][1]); 
+		//printf("%d %d ",temp[size-i-1][0],temp[size-i-1][1]); 
 	}
 }	
 
