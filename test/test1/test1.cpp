@@ -5,7 +5,7 @@ using namespace std;
 class Student{
 public:
     //类包含的变量
-    char *name;
+    char const *name;
     int age;
     float score;
     //类包含的函数
