@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T12:01:03.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="p02EJfo9tFCi1p7OMR4E" version="14.1.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-01-13T13:09:57.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="-KuA_9aOKUXeGB3Yt1Oi" version="14.1.8" type="github" pages="3">
   <diagram id="Yshll1KeJVqe1WhWziSk" name="Page-1">
     <mxGraphModel dx="983" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -116,6 +116,11 @@
         <mxCell id="kgv-w4sO0Tsve0FI88D6-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kgv-w4sO0Tsve0FI88D6-35" target="Qh0jjnEe6WZRLldCU-LE-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="OuzRsEDCaGZ8xAcbS6ZO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kgv-w4sO0Tsve0FI88D6-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kgv-w4sO0Tsve0FI88D6-35" value="&lt;span style=&quot;font-size: 14px&quot;&gt;维护写的状态&lt;br&gt;如 已写的长度wp_len，已写的sector等&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="740" width="120" height="80" as="geometry" />
         </mxCell>
@@ -123,7 +128,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3K7jE72tFIdObAk_5Pin-1" value="&lt;span style=&quot;font-size: 14px&quot;&gt;打包数据&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="630" width="120" height="45" as="geometry" />
+          <mxGeometry x="550" y="620" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="OuzRsEDCaGZ8xAcbS6ZO-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OuzRsEDCaGZ8xAcbS6ZO-2" target="OuzRsEDCaGZ8xAcbS6ZO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OuzRsEDCaGZ8xAcbS6ZO-2" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OuzRsEDCaGZ8xAcbS6ZO-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="860" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -151,14 +165,17 @@
         <mxCell id="e7zCo95LPuhCvYkLJTaY-3" value="遍历整个sector，确认&lt;br&gt;空闲的block" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
           <mxGeometry x="130" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="e7zCo95LPuhCvYkLJTaY-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="n50_d16GfCH-7NYCIRMe-1" source="e7zCo95LPuhCvYkLJTaY-5" target="e7zCo95LPuhCvYkLJTaY-7">
+        <mxCell id="e7zCo95LPuhCvYkLJTaY-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n50_d16GfCH-7NYCIRMe-1" source="e7zCo95LPuhCvYkLJTaY-5" target="Q2uw357Won9p834NOLiW-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e7zCo95LPuhCvYkLJTaY-5" value="往block写ID信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
           <mxGeometry x="130" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="e7zCo95LPuhCvYkLJTaY-7" value="判断是否需要进行区域切换" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
-          <mxGeometry x="130" y="470" width="120" height="90" as="geometry" />
+        <mxCell id="Q2uw357Won9p834NOLiW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n50_d16GfCH-7NYCIRMe-1" source="e7zCo95LPuhCvYkLJTaY-7" target="Q2uw357Won9p834NOLiW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7zCo95LPuhCvYkLJTaY-7" value="切换区域，保存地址信息，并将旧的区只擦除态" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
+          <mxGeometry x="130" y="700" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="e7zCo95LPuhCvYkLJTaY-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="n50_d16GfCH-7NYCIRMe-1" source="e7zCo95LPuhCvYkLJTaY-10" target="e7zCo95LPuhCvYkLJTaY-12">
           <mxGeometry relative="1" as="geometry" />
@@ -181,10 +198,27 @@
         <mxCell id="e7zCo95LPuhCvYkLJTaY-16" value="从block读ID信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
           <mxGeometry x="460" y="360" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Q2uw357Won9p834NOLiW-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="n50_d16GfCH-7NYCIRMe-1" source="Q2uw357Won9p834NOLiW-2" target="e7zCo95LPuhCvYkLJTaY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2uw357Won9p834NOLiW-4" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q2uw357Won9p834NOLiW-3">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q2uw357Won9p834NOLiW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="n50_d16GfCH-7NYCIRMe-1" source="Q2uw357Won9p834NOLiW-2" target="Q2uw357Won9p834NOLiW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2uw357Won9p834NOLiW-2" value="&lt;span&gt;判断是否需要进行区域切换&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
+          <mxGeometry x="105" y="500" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2uw357Won9p834NOLiW-5" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
+          <mxGeometry x="130" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="iK-IZng5JhyuY1Wdc6F6" name="第 3 页">
+  <diagram id="iK-IZng5JhyuY1Wdc6F6" name="Page-3">
     <mxGraphModel dx="983" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="_GHXbBKbilwhcIrSQIw4-0" />
@@ -259,7 +293,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_GHXbBKbilwhcIrSQIw4-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_GHXbBKbilwhcIrSQIw4-1">
+        <mxCell id="_GHXbBKbilwhcIrSQIw4-26" value="读取最新的再去遍历直到为0xFF" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_GHXbBKbilwhcIrSQIw4-1">
           <mxGeometry x="255" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_GHXbBKbilwhcIrSQIw4-30" value="返回rp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_GHXbBKbilwhcIrSQIw4-1">
