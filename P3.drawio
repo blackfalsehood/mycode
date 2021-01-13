@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T06:59:47.857Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="LUmj_b5gFxVIIFzDrURk" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T07:24:51.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="j3pMjU6TUgsanoU0inFv" version="14.1.8" type="github" pages="2">
   <diagram id="Yshll1KeJVqe1WhWziSk" name="Page-1">
     <mxGraphModel dx="917" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,6 +118,62 @@
         </mxCell>
         <mxCell id="kgv-w4sO0Tsve0FI88D6-35" value="&lt;span style=&quot;font-size: 14px&quot;&gt;维护写的状态&lt;br&gt;如 已写的长度wp_len，已写的sector等&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="740" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5nd3lFEQ99d_9qUJ0lhs" name="Page-2">
+    <mxGraphModel dx="917" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="n50_d16GfCH-7NYCIRMe-0" />
+        <mxCell id="n50_d16GfCH-7NYCIRMe-1" parent="n50_d16GfCH-7NYCIRMe-0" />
+        <mxCell id="e7zCo95LPuhCvYkLJTaY-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="n50_d16GfCH-7NYCIRMe-1" source="e7zCo95LPuhCvYkLJTaY-0" target="e7zCo95LPuhCvYkLJTaY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7zCo95LPuhCvYkLJTaY-0" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
+          <mxGeometry x="130" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e7zCo95LPuhCvYkLJTaY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="n50_d16GfCH-7NYCIRMe-1" source="e7zCo95LPuhCvYkLJTaY-1" target="e7zCo95LPuhCvYkLJTaY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7zCo95LPuhCvYkLJTaY-1" value="获取正在使用的ID存储sector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
+          <mxGeometry x="130" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e7zCo95LPuhCvYkLJTaY-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="n50_d16GfCH-7NYCIRMe-1" source="e7zCo95LPuhCvYkLJTaY-3" target="e7zCo95LPuhCvYkLJTaY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7zCo95LPuhCvYkLJTaY-3" value="遍历整个sector，确认&lt;br&gt;空闲的block" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
+          <mxGeometry x="130" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e7zCo95LPuhCvYkLJTaY-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="n50_d16GfCH-7NYCIRMe-1" source="e7zCo95LPuhCvYkLJTaY-5" target="e7zCo95LPuhCvYkLJTaY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7zCo95LPuhCvYkLJTaY-5" value="往block写ID信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
+          <mxGeometry x="130" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e7zCo95LPuhCvYkLJTaY-7" value="判断是否需要进行区域切换" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
+          <mxGeometry x="130" y="470" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e7zCo95LPuhCvYkLJTaY-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="n50_d16GfCH-7NYCIRMe-1" source="e7zCo95LPuhCvYkLJTaY-10" target="e7zCo95LPuhCvYkLJTaY-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7zCo95LPuhCvYkLJTaY-10" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
+          <mxGeometry x="310" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e7zCo95LPuhCvYkLJTaY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="n50_d16GfCH-7NYCIRMe-1" source="e7zCo95LPuhCvYkLJTaY-12" target="e7zCo95LPuhCvYkLJTaY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7zCo95LPuhCvYkLJTaY-12" value="获取正在使用的ID存储sector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
+          <mxGeometry x="310" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e7zCo95LPuhCvYkLJTaY-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="n50_d16GfCH-7NYCIRMe-1" source="e7zCo95LPuhCvYkLJTaY-14" target="e7zCo95LPuhCvYkLJTaY-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7zCo95LPuhCvYkLJTaY-14" value="遍历整个sector，确认&lt;br&gt;空闲的block" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
+          <mxGeometry x="310" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e7zCo95LPuhCvYkLJTaY-16" value="从block读ID信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
+          <mxGeometry x="310" y="360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
