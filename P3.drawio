@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T13:09:57.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="-KuA_9aOKUXeGB3Yt1Oi" version="14.1.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-01-13T13:11:55.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="vxiMqywk-hjmnaygVjVR" version="14.1.8" type="github" pages="3">
   <diagram id="Yshll1KeJVqe1WhWziSk" name="Page-1">
     <mxGraphModel dx="983" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -195,6 +195,9 @@
         <mxCell id="e7zCo95LPuhCvYkLJTaY-14" value="遍历整个sector，确认&lt;br&gt;最新的block" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
           <mxGeometry x="460" y="250" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Q2uw357Won9p834NOLiW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n50_d16GfCH-7NYCIRMe-1" source="e7zCo95LPuhCvYkLJTaY-16" target="Q2uw357Won9p834NOLiW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="e7zCo95LPuhCvYkLJTaY-16" value="从block读ID信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
           <mxGeometry x="460" y="360" width="120" height="60" as="geometry" />
         </mxCell>
@@ -214,6 +217,29 @@
         </mxCell>
         <mxCell id="Q2uw357Won9p834NOLiW-5" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
           <mxGeometry x="130" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2uw357Won9p834NOLiW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="n50_d16GfCH-7NYCIRMe-1" source="Q2uw357Won9p834NOLiW-9" target="Q2uw357Won9p834NOLiW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2uw357Won9p834NOLiW-9" value="切换区域，保存地址信息，并将旧的区只擦除态" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
+          <mxGeometry x="460" y="690" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2uw357Won9p834NOLiW-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="n50_d16GfCH-7NYCIRMe-1" source="Q2uw357Won9p834NOLiW-13" target="Q2uw357Won9p834NOLiW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2uw357Won9p834NOLiW-11" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q2uw357Won9p834NOLiW-10">
+          <mxGeometry x="-0.8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q2uw357Won9p834NOLiW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="n50_d16GfCH-7NYCIRMe-1" source="Q2uw357Won9p834NOLiW-13" target="Q2uw357Won9p834NOLiW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2uw357Won9p834NOLiW-13" value="&lt;span&gt;判断是否需要进行区域切换&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
+          <mxGeometry x="435" y="510" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Q2uw357Won9p834NOLiW-14" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n50_d16GfCH-7NYCIRMe-1">
+          <mxGeometry x="460" y="870" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
