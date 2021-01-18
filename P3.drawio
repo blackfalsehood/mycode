@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-18T09:36:46.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="AVyqYUOWTjmb2RO-mBaE" version="14.1.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-01-18T09:37:29.680Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="WWzGMRohtFfBCv3pXzGm" version="14.1.9" type="github" pages="3">
   <diagram id="Yshll1KeJVqe1WhWziSk" name="Page-1">
     <mxGraphModel dx="1104" dy="1444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -370,7 +370,7 @@
         </mxCell>
         <mxCell id="fnqqHqIh86q1_Osp9XYR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fnqqHqIh86q1_Osp9XYR-1" source="fnqqHqIh86q1_Osp9XYR-9" target="fnqqHqIh86q1_Osp9XYR-21">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="270" as="targetPoint" />
+            <mxPoint x="450" y="610" as="targetPoint" />
             <Array as="points">
               <mxPoint x="560" y="360" />
               <mxPoint x="560" y="600" />
@@ -385,13 +385,10 @@
         <mxCell id="fnqqHqIh86q1_Osp9XYR-9" value="判断是否处于连接状态？" style="rhombus;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="fnqqHqIh86q1_Osp9XYR-1">
           <mxGeometry x="295" y="320" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="fnqqHqIh86q1_Osp9XYR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="fnqqHqIh86q1_Osp9XYR-1" source="fnqqHqIh86q1_Osp9XYR-13">
+        <mxCell id="fnqqHqIh86q1_Osp9XYR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fnqqHqIh86q1_Osp9XYR-1" source="fnqqHqIh86q1_Osp9XYR-13" target="fnqqHqIh86q1_Osp9XYR-21">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="580" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="380" y="580" />
-              <mxPoint x="380" y="580" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fnqqHqIh86q1_Osp9XYR-29" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fnqqHqIh86q1_Osp9XYR-20">
@@ -420,7 +417,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fnqqHqIh86q1_Osp9XYR-21" value="擦除所需擦除的sector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fnqqHqIh86q1_Osp9XYR-1">
-          <mxGeometry x="320" y="580" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fnqqHqIh86q1_Osp9XYR-27" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fnqqHqIh86q1_Osp9XYR-1">
           <mxGeometry x="320" y="660" width="120" height="60" as="geometry" />
